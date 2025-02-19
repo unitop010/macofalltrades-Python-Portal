@@ -1,17 +1,7 @@
-# FastAPI Tutorial Series
-
-![stack_logo](https://gist.githubusercontent.com/mukulmantosh/d68428973c1a368ecc6f3781144abca8/raw/044c5e7b4e86d39c815d575ad63c56864e2a7dda/stack.png)
-
-
-Welcome to the FastAPI & Kubernetes Tutorial Series with PyCharm & AWS EKS.
-
 ## Prerequisites 
 
 Before starting up this project, make sure you have an AWS account and 
 PyCharm installed in your machine.
-
-* In this tutorial we will be using [PyCharm Professional](https://www.jetbrains.com/pycharm/).
-
 
 ### Software Installation
 
@@ -98,12 +88,6 @@ or with execution pool
 $ celery -A main.celery worker -l info --pool=prefork
 ```
 
-Reference Materials:
-* [Celery Execution Pools: What is it all about?](https://www.distributedpython.com/2018/10/26/celery-execution-pool/)
-* [A complete guide to production-ready Celery configuration](https://medium.com/koko-networks/a-complete-guide-to-production-ready-celery-configuration-5777780b3166)
-* [Eliminating Task Processing Outages by Replacing RabbitMQ with Apache Kafka Without Downtime](https://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/)
-
-
 ![celery-task](./misc/images/celery-task.png)
 
 ## Testing
@@ -111,15 +95,3 @@ Reference Materials:
 Before proceeding make sure you have created a test database in Postgres.
 
 ![python-testing](./misc/images/testing.gif)
-
-
-## DockerHub
- - [https://hub.docker.com/r/mukulmantosh/ecommerce-fastapi](https://hub.docker.com/r/mukulmantosh/ecommerce-fastapi)
-
-
-## References
-
-If you are interested to know more about AWS with Python, then you can follow the below links.
-
-- [Developing Serverless APIs using AWS Toolkit](https://www.jetbrains.com/pycharm/guide/tutorials/intro-aws/)
-- [Developing Django Application using AWS NICE DCV, high-performance remote desktop and application streaming](https://www.jetbrains.com/pycharm/guide/tutorials/django-aws/) 
